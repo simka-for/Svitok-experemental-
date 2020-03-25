@@ -2,22 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502b4f56-624c-4718-b3a8-68ec510edf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/subscriptions.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/create-user-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/create-user-before.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/messages-list-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/messages-list-before.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -73,26 +85,99 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/svitok" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
-    <configuration name="ServingWebContentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.svitok.ServingWebContentApplication" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chukubek\IdeaProjects\Svitok\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MainControllerTest.addMessageToListTest">
+    <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Svitok" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.svitok.controller.*" />
+          <option name="PATTERN" value="com.example.svitok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.svitok" />
+      <option name="MAIN_CLASS_NAME" value="com.example.svitok.MainControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainControllerTest.addMessageToListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Svitok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.svitok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.svitok" />
+      <option name="MAIN_CLASS_NAME" value="com.example.svitok.MainControllerTest" />
+      <option name="METHOD_NAME" value="addMessageToListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainControllerTest.messageListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Svitok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.svitok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.svitok" />
+      <option name="MAIN_CLASS_NAME" value="com.example.svitok.MainControllerTest" />
+      <option name="METHOD_NAME" value="messageListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.svitok in Svitok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Svitok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.svitok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.svitok" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServingWebContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Svitok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.svitok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.svitok.ServingWebContentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServingWebContentApplication" />
+        <item itemvalue="JUnit.MainControllerTest.addMessageToListTest" />
+        <item itemvalue="JUnit.com.example.svitok in Svitok" />
+        <item itemvalue="Spring Boot.ServingWebContentApplication" />
+        <item itemvalue="JUnit.MainControllerTest" />
+        <item itemvalue="JUnit.MainControllerTest.messageListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +197,7 @@
       <workItem from="1584957301096" duration="13908000" />
       <workItem from="1584990508856" duration="2605000" />
       <workItem from="1585060234982" duration="9081000" />
-      <workItem from="1585123798590" duration="5418000" />
+      <workItem from="1585123798590" duration="16943000" />
     </task>
     <servers />
   </component>
@@ -127,14 +212,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1584388393601" />
-    <state x="552" y="178" key="#SQL_Dialects" timestamp="1584961732348">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585140434585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1584961732348" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584961746889">
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585140434585" />
+    <state x="552" y="178" key="#SQL_Dialects" timestamp="1585140688072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584961746889" />
+    <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1585140688072" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585141905483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585141905483" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585136829844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585136829844" />
     <state x="713" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585067509739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -151,38 +244,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584268668913" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1585128629736">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585143631406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585128629736" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1585128629736">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631406" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585143631405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585128629736" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1585128629736">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631405" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585143631405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585128629736" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1585128629736">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631405" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585143631406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585128629736" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584272025002">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631406" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585143631267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584272025002" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584272025002">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631267" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585143631267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584272025002" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584272025002">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631267" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585143631267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584272025002" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584272025002">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631267" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585143631267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584272025002" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585143631267" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1584957557106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,6 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584270304635" />
+    <state x="676" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585142040426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585142040426" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1585060238553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
