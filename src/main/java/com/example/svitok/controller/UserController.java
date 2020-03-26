@@ -70,14 +70,14 @@ public class UserController {
         return "redirect:/user-messages/" + user.getId();
     }
 
-    @GetMapping("/unsubscribe{user}")
+    @GetMapping("unsubscribe/{user}")
     public String unsubscribe(
             @AuthenticationPrincipal User currentUser,
             @PathVariable User user
-    ){
+    ) {
         userService.unsubscribe(currentUser, user);
 
-        return "redirect:/user-messages" + user.getId();
+        return "redirect:/user-messages/" + user.getId();
     }
 
     @GetMapping("{type}/{user}/list")
