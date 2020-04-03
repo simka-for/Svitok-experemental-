@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502b4f56-624c-4718-b3a8-68ec510edf0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/dto/MessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/util/MessageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/svitok/MainControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/svitok/MainControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +76,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/svitok" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
@@ -76,27 +87,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.svitok.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Chukubek\IdeaProjects\Svitok\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainControllerTest">
-    <configuration name="LoginTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Svitok" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.svitok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.svitok" />
-      <option name="MAIN_CLASS_NAME" value="com.example.svitok.LoginTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
     <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Svitok" />
       <extension name="coverage">
@@ -112,32 +113,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainControllerTest.mainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Svitok" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.svitok.*" />
+          <option name="PATTERN" value="com.example.svitok.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.svitok" />
-      <option name="MAIN_CLASS_NAME" value="com.example.svitok.MainControllerTest" />
-      <option name="METHOD_NAME" value="mainPageTest" />
+      <option name="PACKAGE_NAME" value="com.example.svitok.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.svitok.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Svitok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.svitok.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.svitok.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.svitok.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="addUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.svitok in Svitok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.failAddUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Svitok" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.svitok.*" />
+          <option name="PATTERN" value="com.example.svitok.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.svitok" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="com.example.svitok.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.svitok.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="failAddUserTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainControllerTest" />
         <item itemvalue="Spring Boot.ServingWebContentApplication" />
-        <item itemvalue="JUnit.MainControllerTest.mainPageTest" />
-        <item itemvalue="JUnit.LoginTest.test" />
-        <item itemvalue="JUnit.com.example.svitok in Svitok" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.failAddUserTest" />
+        <item itemvalue="JUnit.UserServiceTest.addUser" />
+        <item itemvalue="JUnit.MainControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +202,10 @@
       <workItem from="1585123798590" duration="17197000" />
       <workItem from="1585148526202" duration="766000" />
       <workItem from="1585248334321" duration="632000" />
-      <workItem from="1585249200280" duration="850000" />
+      <workItem from="1585249200280" duration="3103000" />
+      <workItem from="1585505369837" duration="1218000" />
+      <workItem from="1585674839991" duration="374000" />
+      <workItem from="1585901258915" duration="6860000" />
     </task>
     <servers />
   </component>
@@ -219,50 +240,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585067509739" />
-    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1585124069726">
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1585908469141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585124069726" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585908469141" />
     <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584885272817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584885272817" />
+    <state x="756" y="379" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585902320315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1585902320315" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584268668913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584268668913" />
-    <state width="1877" height="299" key="GridCell.Tab.0.bottom" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.0.center" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.0.left" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.0.right" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.1.bottom" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.1.bottom" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.1.center" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.1.center" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.1.left" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.1.left" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
-    <state width="1877" height="299" key="GridCell.Tab.1.right" timestamp="1585250052055">
+    <state width="1877" height="376" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
+    <state width="1877" height="376" key="GridCell.Tab.1.right" timestamp="1585908878792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585250052055" />
+    <state width="1877" height="376" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1584957557106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,6 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585060238553" />
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585902307007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585902307007" />
     <state x="690" y="275" key="extract.method.dialog" timestamp="1585070781696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

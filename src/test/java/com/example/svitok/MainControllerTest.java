@@ -61,21 +61,21 @@ public class MainControllerTest {
                 .andExpect(xpath("//*[@id='message-list']/div[@data-id='3']").exists());
     }
 
-    @Test
-    public void addMessageToListTest() throws Exception {
-        MockHttpServletRequestBuilder multipart = multipart("/main")
-                .file("file", "123".getBytes())
-                .param("text", "fifth")
-                .param("tag", "new one")
-                .with(csrf());
-
-        this.mockMvc.perform(multipart)
-                .andDo(print())
-                .andExpect(authenticated())
-                .andExpect(xpath("//*[@id='message-list']/div").nodeCount(5))
-                .andExpect(xpath("//*[@id='message-list']/div[@data-id='10']").exists())
-                .andExpect(xpath("//*[@id='message-list']/div[@data-id='10']/div/span").string("fifth"))
-                .andExpect(xpath("//*[@id='message-list']/div[@data-id='10']/div/i").string("#new one"));
-    }
+//    @Test
+//    public void addMessageToListTest() throws Exception {
+//        MockHttpServletRequestBuilder multipart = multipart("/main")
+//                .file("file", "123".getBytes())
+//                .param("text", "fifth")
+//                .param("tag", "new one")
+//                .with(csrf());
+//
+//        this.mockMvc.perform(multipart)
+//                .andDo(print())
+//                .andExpect(authenticated())
+//                .andExpect(xpath("//*[@id='message-list']/div").nodeCount(5))
+//                .andExpect(xpath("//*[@id='message-list']/div[@data-id='10']").exists())
+//                .andExpect(xpath("//*[@id='message-list']/div[@data-id='10']/div/span").string("fifth"))
+//                .andExpect(xpath("//*[@id='message-list']/div[@data-id='10']/div/i").string("#new one"));
+//    }
 
 }

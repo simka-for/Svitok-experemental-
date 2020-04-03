@@ -41,7 +41,8 @@ public class MainController {
     }
 
     @GetMapping("/main")
-    public String main(@RequestParam(required = false) String filter, Model model){
+    public String main(@RequestParam(required = false) String filter,
+                       Model model){
 
         Iterable<Message> messages = messageRepository.findAll();
 
