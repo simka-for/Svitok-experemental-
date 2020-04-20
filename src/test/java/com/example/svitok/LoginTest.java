@@ -1,6 +1,6 @@
 package com.example.svitok;
 
-import com.example.svitok.controller.MainController;
+import com.example.svitok.controller.MessageController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +28,7 @@ public class LoginTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private MainController controller;
+    private MessageController controller;
 
     @Test
     public void test() throws Exception{

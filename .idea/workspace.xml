@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502b4f56-624c-4718-b3a8-68ec510edf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/dto/MessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/util/MessageHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/dto/MessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/dto/MessageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/repository/MessageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/svitok/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/dto/MessageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/dto/MessageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/repository/MessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/repository/MessageRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/svitok/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/svitok/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/svitok/MainControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/svitok/MainControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,18 +53,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1Z9yyUG1SwnnIwFSpUzjmmVLA4f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -75,16 +69,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/svitok" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -205,12 +200,22 @@
       <workItem from="1585249200280" duration="3103000" />
       <workItem from="1585505369837" duration="1218000" />
       <workItem from="1585674839991" duration="374000" />
-      <workItem from="1585901258915" duration="6860000" />
+      <workItem from="1585901258915" duration="7505000" />
+      <workItem from="1585912428180" duration="9931000" />
+      <workItem from="1585927023521" duration="834000" />
+      <workItem from="1585984925702" duration="905000" />
+      <workItem from="1585985941199" duration="6993000" />
+      <workItem from="1586009569547" duration="1832000" />
+      <workItem from="1587213390340" duration="110000" />
+      <workItem from="1587213650283" duration="403000" />
+      <workItem from="1587215059077" duration="160000" />
+      <workItem from="1587215408182" duration="155000" />
+      <workItem from="1587389220175" duration="8036000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -252,46 +257,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="379" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1585902320315" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584268668913">
+    <state x="417" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587395935926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584268668913" />
-    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1585908878792">
+    <state x="417" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587395935926" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587215569114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1585908878792">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587215569114" />
+    <state width="1877" height="400" key="GridCell.Tab.0.bottom" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1585908878792">
+    <state width="1877" height="400" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.0.center" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1585908878792">
+    <state width="1877" height="400" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.0.left" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.1.bottom" timestamp="1585908878792">
+    <state width="1877" height="400" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.0.right" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.1.center" timestamp="1585908878792">
+    <state width="1877" height="400" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.1.bottom" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.1.left" timestamp="1585908878792">
+    <state width="1877" height="400" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.1.center" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state width="1877" height="376" key="GridCell.Tab.1.right" timestamp="1585908878792">
+    <state width="1877" height="400" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.1.left" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="376" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585908878792" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1584957557106">
+    <state width="1877" height="400" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="400" key="GridCell.Tab.1.right" timestamp="1587396692254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584957557106" />
+    <state width="1877" height="400" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1587396927059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587396927059" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1584270304635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

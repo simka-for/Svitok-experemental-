@@ -5,7 +5,6 @@ import com.example.svitok.domain.User;
 import com.example.svitok.domain.util.MessageHelper;
 
 public class MessageDto {
-
     private Long id;
     private String text;
     private String tag;
@@ -22,6 +21,10 @@ public class MessageDto {
         this.filename = message.getFilename();
         this.likes = likes;
         this.meLiked = meLiked;
+    }
+
+    public String getAuthorName() {
+        return MessageHelper.getAuthorName(author);
     }
 
     public Long getId() {
@@ -50,9 +53,6 @@ public class MessageDto {
 
     public Boolean getMeLiked() {
         return meLiked;
-    }
-    public String getAuthorName(){
-        return MessageHelper.getAuthorName(author);
     }
 
     @Override

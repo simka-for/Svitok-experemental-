@@ -1,6 +1,6 @@
 package com.example.svitok;
 
-import com.example.svitok.controller.MainController;
+import com.example.svitok.controller.MessageController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +11,7 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 
-import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.authenticated;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.multipart;
@@ -33,7 +31,7 @@ public class MainControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private MainController controller;
+    private MessageController controller;
 
     @Test
     public void mainPageTest() throws Exception{
