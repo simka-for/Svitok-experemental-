@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502b4f56-624c-4718-b3a8-68ec510edf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/util/RedirectInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/dto/MessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/domain/dto/MessageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/svitok/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/svitok/MainControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/dto/MessageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/domain/dto/MessageDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/repository/MessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/repository/MessageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/svitok/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/svitok/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/svitok/MainControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/svitok/MainControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/svitok/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/svitok/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/svitok/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/svitok/config/MvcConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +198,8 @@
       <workItem from="1587213650283" duration="403000" />
       <workItem from="1587215059077" duration="160000" />
       <workItem from="1587215408182" duration="155000" />
-      <workItem from="1587389220175" duration="8036000" />
+      <workItem from="1587389220175" duration="9308000" />
+      <workItem from="1587457700157" duration="1615000" />
     </task>
     <servers />
   </component>
@@ -265,38 +254,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587215569114" />
-    <state width="1877" height="400" key="GridCell.Tab.0.bottom" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.0.center" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.0.left" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.0.right" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.1.bottom" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.1.center" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.1.center" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.1.left" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.1.left" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
-    <state width="1877" height="400" key="GridCell.Tab.1.right" timestamp="1587396692254">
+    <state width="1877" height="315" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
+    <state width="1877" height="315" key="GridCell.Tab.1.right" timestamp="1587399156994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587396692254" />
+    <state width="1877" height="315" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587399156994" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1587396927059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
